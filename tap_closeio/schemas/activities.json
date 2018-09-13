@@ -807,7 +807,7 @@
         "array"
       ],
       "items": {
-        "$ref": "users"
+        "$ref": "_sdc_definitions.json#/users"
       }
     }
   },

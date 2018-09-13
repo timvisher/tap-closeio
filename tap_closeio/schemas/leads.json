@@ -24,7 +24,7 @@
       }
     },
     "integration_links": {
-      "$ref": "integration_links"
+      "$ref": "_sdc_definitions.json#/integration_links"
     },
     "description": {
       "type": [
@@ -56,7 +56,7 @@
         ],
         "properties": {
           "integration_links": {
-            "$ref": "integration_links"
+            "$ref": "_sdc_definitions.json#/integration_links"
           },
           "value": {
             "type": [
@@ -455,7 +455,7 @@
             ]
           },
           "integration_links": {
-            "$ref": "integration_links"
+            "$ref": "_sdc_definitions.json#/integration_links"
           },
           "id": {
             "type": [
@@ -665,8 +665,5 @@
       ]
     }
   },
-  "additionalProperties": true,
-  "tap_schema_dependencies": [
-    "integration_links"
-  ]
+  "additionalProperties": true
 }
